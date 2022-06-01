@@ -1,0 +1,67 @@
+:root {--primary-color: black; --secondary-color: white; --medium-color: #8b8b8b; --max-width: 1280px; --menu-speed: 0.75s;}
+body {font-family: Archvio, sans-serif; color: white; line-height: 1.4;}
+a {text-decoration: none;}
+.in-use {color: blue; text-decoration: underline;}
+.container1 {padding: 0 2rem; max-width: var(--max-width); overflow: hidden; margin: auto; height: 100%;}
+html {scroll-behavior: smooth;}
+
+
+#main-nav {position: relative;display: flex; align-items: center; justify-content: space-between; background-color: whitesmoke; color: #fff; width: 100%;
+    height: 85px; top: 0px; padding: 2rem 50px; z-index: 2 !important; 
+   transition: 0.5s; padding-bottom: 1.5rem;}
+   
+   #main-nav h1 {margin-bottom: 0; padding: 1.2rem 0 0.5rem; font-size: 14px; font-weight: 400; color: #9e0000;}  
+ #main-nav .menu-wrap input {visibility: hidden;}
+ #main-nav ul {display: flex; list-style-type: none; list-style: none; padding: 0.2rem;}  
+ #main-nav ul li {padding: 0.7rem;}
+ #main-nav ul li a {font-weight: bold; color: black; margin: 0; transition: all 0.3s; font-size: 12px; font-weight: 300; padding: 0.3rem;}
+ #main-nav ul li a:hover {color: blue; text-decoration: underline;}
+
+
+.menu-wrap {color: white;} 
+
+
+ /*HOME A*/
+ #home-a { position: relative; background-color: white; top: 20px;} 
+ #home-a .container {padding: 3rem 0rem; overflow: hidden; margin: auto; height: 100%; padding-top: 4rem;}
+ #home-a .container .div { padding: 0 45px;}
+ #home-a .container .div h1 {color: #2a2a2a; line-height: 4.5; font-size: 20px; text-align: center; font-weight: 200;}
+ #home-a .container .div h2 {color: #2a2a2a; font-size: 14px; text-align: center; padding: 0 8px; margin: 0 350px; font-weight: 100;} 
+
+
+ /*HOME B*/
+#home-b {background: white;position: relative; width: 100%; height: 100%;}
+#home-b .container .grid {display: grid; grid-template-columns: repeat(3, 1fr); width: 100%;}
+/*Image Overlay*/
+#home-b .container .grid .grid-item {position: relative; width: 100%; padding: 1rem 1rem;}
+#home-b .container .grid .grid-item img {display: block; width: 100%; height: 100%; object-fit: cover;} 
+#home-b .container .grid .grid-item .overlay {position: absolute; transition: all 0.3s ease; opacity: 0; background-color: #02020291;}
+#home-b .container .grid .grid-item .overlay .text {color: snow; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); size: 15rem;}
+#home-b .container .grid .grid-item .overlay-fade {height: 100%; width: 100%; top: 0; left: 0;}
+#home-b .container .grid .grid-item:hover .overlay-fade {background-color: #02020291; opacity: 0.8;}
+#home-b .container .grid .grid-item:hover .img {transform: scale(1.15); transition: transform 1.2s;}
+#home-b .container .grid .grid-item .img-container {overflow: hidden; height: 100%;}
+
+/*ABOUT*/
+#about { position: relative; background-color: white; top: 1px; height: 100vh;}
+#about .container {padding: 0 250px; overflow: hidden; margin: auto; height: 100%; padding-top: 4rem;}
+#about .container h3 {color: #2a2a2a; line-height: 1.5; font-size: 16px; text-align: center; font-weight: 200; padding: 0 16px; text-align: start; margin: 8px 0px;}
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+
+/*FOOTER*/
+#footer {background: rgba(255, 255, 255, 0.747); height: 120px; position: relative;}
+#footer .container .div h1 {font-size: 200; color: #686868; font-size: 14px; text-align: center;}
+#footer .container .svg  {text-align: center; margin: 0 3rem;}
+#footer .container .svg a {color: #686868; margin: 0 0.3rem; padding-top: 0.5rem;}
+#footer .container .svg a:hover {color: #9e0000;}

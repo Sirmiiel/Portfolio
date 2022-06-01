@@ -1,0 +1,11 @@
+.container {width: var(--max-width);padding: 0 2rem; margin: auto; overflow: hidden;}
+
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+.py-4 {padding: 4rem 0;}
+.py-5 {padding: 5rem 0;}
+
+.p-1 {padding: 1.5rem;}
+.py-2 {padding: 2rem ;}
+.p-3 {padding: 3rem;}
